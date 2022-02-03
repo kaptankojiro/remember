@@ -1,0 +1,10 @@
+After Ubuntu installation:
+
+apt-get install net-tools -y
+apt-get install curl -y
+apt-get install gedit -y
+
+Change IP address from bash:
+
+sudo ifconfig eth0 192.168.1.10 netmask 255.255.255.0
+
