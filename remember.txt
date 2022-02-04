@@ -14,3 +14,7 @@ https://linuxhint.com/send_linux_logs_remote_server/
 Change IP address from bash:
 sudo ifconfig eth0 192.168.1.114 netmask 255.255.255.0
 
+tcpdump
+tcpdump -i enp0s8 port 514 and dst 192.168.56.105 -vv -c 5
+
+
