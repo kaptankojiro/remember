@@ -4,6 +4,12 @@ apt-get install net-tools -y
 apt-get install curl -y
 apt-get install gedit -y
 
+SimpleHTTPServer
+python3 -m pip install websocket-client
+python3 -m pip install simple_http_server
+python3 -m http.server 8080
+
+
 Change IP address from bash:
 
 sudo ifconfig eth0 192.168.1.10 netmask 255.255.255.0
