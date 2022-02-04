@@ -1,17 +1,16 @@
 After Ubuntu installation:
-
 apt-get install net-tools -y
 apt-get install curl -y
 apt-get install python3-pip -y
 
 SimpleHTTPServer
-
 python3 -m pip install websocket-client
 python3 -m pip install simple_http_server
 python3 -m http.server 8080
 
+Syslog configuration:
+https://linuxhint.com/send_linux_logs_remote_server/
 
 Change IP address from bash:
-
 sudo ifconfig eth0 192.168.1.114 netmask 255.255.255.0
 
