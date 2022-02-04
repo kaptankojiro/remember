@@ -5,6 +5,7 @@ apt-get install curl -y
 apt-get install gedit -y
 
 SimpleHTTPServer
+
 python3 -m pip install websocket-client
 python3 -m pip install simple_http_server
 python3 -m http.server 8080
