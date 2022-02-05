@@ -3,6 +3,11 @@ apt-get install net-tools -y
 apt-get install curl -y
 apt-get install python3-pip -y
 
+Add user
+adduser anotherrootuser
+adduser anotherrootuser sudo
+cat /etc/group | grep sudo
+
 SimpleHTTPServer
 python3 -m pip install websocket-client
 python3 -m pip install simple_http_server
