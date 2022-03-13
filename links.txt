@@ -3,3 +3,7 @@ ATT&CK Navigator - https://lnkd.in/eaqpNZRa
 DeTT&CT - https://lnkd.in/eY6MCyrd
 RE&CT - https://lnkd.in/en2Apd8s
 D3FEND - https://d3fend.mitre.org/
+
+https://search.unprotect.it/technique/detecting-mac-address/
+
+https://gitlab.com/syntax-ir/playbooks/-/tree/main/IRP-DataLoss
